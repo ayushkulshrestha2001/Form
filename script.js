@@ -29,11 +29,7 @@ $.fn.upform = function() {
   });
 
   $($this).find("form").submit(function() {
-    console.log(name);
-    console.log(email);
-    console.log(ans1);
-    console.log(ans2);
-    console.log(ans3);
+    window.location.href='Done.html';
     event.preventDefault();
   });
   });
