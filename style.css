@@ -5,18 +5,19 @@ background-image: url("https://www.transparenttextures.com/patterns/crissxcross.
  color: #FFF;
   
 }
-.Arduino{
-  height: 150px;
-  width: 150px;
+.logo1{
+  align: center;
+  margin:auto;
+  margin-left: 35%;
+  margin-bottom:20px;
 }
 
 header{
   display: flex;
   margin-top: 20px;
 }
-header h1{
-  margin-left: 250px;
-  margin-top: 100px;
+h1{
+  margin:auto;
 }
 .title{
   text-align: center;
