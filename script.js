@@ -29,7 +29,7 @@ $.fn.upform = function() {
   });
 
   $($this).find("form").submit(function() {
-    window.location.href='Done.html';
+    window.location.href='./Done.html';
     event.preventDefault();
   });
   });
