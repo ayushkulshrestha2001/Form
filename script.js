@@ -3,6 +3,10 @@ var ans2="";
 var ans3="";
 var name="";
 var email="";
+var branch="";
+var roll="";
+var group="";
+var year="";
 
 
 $.fn.upform = function() {
@@ -29,6 +33,7 @@ $.fn.upform = function() {
   });
 
   $($this).find("form").submit(function() {
+    alert("Responses Submitted Successfully");
     window.location.href='./Done.html';
     event.preventDefault();
   });
